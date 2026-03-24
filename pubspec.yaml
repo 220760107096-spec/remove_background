@@ -1,0 +1,46 @@
+name: background_remove
+description: "A premium AI-powered background removal tool for Flutter Web."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Background removal
+  image_background_remover: ^2.0.0
+
+  # File picking
+  file_picker: ^8.0.0+1
+
+  # Drag & drop for web
+  flutter_dropzone: ^4.0.1
+
+  # Animations
+  lottie: ^3.1.0
+
+  # State management
+  provider: ^6.1.2
+
+  # Web utilities
+  universal_html: ^2.2.4
+
+  # Image handling
+  image: ^4.2.0
+  firebase_core: ^4.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
